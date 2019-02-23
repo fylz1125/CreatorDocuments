@@ -15,7 +15,7 @@ Camera是游戏渲染的窗口，场景里至少需要一个Camera，否则将�
 - 一个场景至少需要一个Camera，可以同时存在多个Camera。
 - Camera本身不可见，渲染大小就是当前屏幕大小。
 - 同一场景可以多个Camera可以分组渲染，各自渲染各自的分组对象。
-- 多个Camera渲染的对象层次，由Camera深度决定，值越大越后面渲染。同一个Camera渲染的对象，按照节点本身层级渲染，子节点总是在父节点后渲染。
+- 多个Camera渲染的对象层次，由Camera深度Depth决定，值越大越后面渲染。同一个Camera渲染的对象，按照节点本身层级渲染，子节点总是在父节点后渲染。
 
 ## Camera案例——无限滚动视差背景
 Camera组件属性可参考[官方文档](https://docs.cocos.com/creator/manual/zh/render/camera.html#摄像机属性)。
