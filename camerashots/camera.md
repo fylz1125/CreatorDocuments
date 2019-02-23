@@ -23,41 +23,41 @@ Creator编辑器在菜单`项目`->`项目设置`->`分组管理`中更改或添
 
 1. 创建Camera节点，先创建一个空节点，然后在这个节点上添加Camera组件。添加两个Cameara节点，FarCamera和NearCamera，用来分别渲染远景和近景。
 
-![空节点](camerashots/node.png)<br>
-![添加摄像机](camerashots/addcamera.png)
+![空节点](node.png)<br>
+![添加摄像机](addcamera.png)
 
 2. 添加分组，在分组管理里面添加两个分组，nearbg和farbg
 
-![添加分组](camerashots/addgroup.png)
+![添加分组](addgroup.png)
 
 3. 场景中添加近景和远景节点，分别设置Group
 
-![远景](camerashots/fargroup.png)
+![远景](fargroup.png)
 
-![近景](camerashots/neargroup.png)
+![近景](neargroup.png)
 
 4. 设置Camera的cullMask为对应分组，FarCamera设置为farbg，NearCamera设置为nearbg。
 
-![远景摄像机](camerashots/farcamera.png)
+![远景摄像机](farcamera.png)
 
-![近景摄像机](camerashots/nearcamera.png)
+![近景摄像机](nearcamera.png)
 
 到这里多摄像机和分组渲染设置完成了，运行模拟器可以看到界面
-![运行结果](camerashots/step1.png)
+![运行结果](step1.png)
 
 ### 视差原理
 背景图片固定不动，移动摄像机。因为我们看到的画面都是摄像机渲染的画面，渲染区域就是屏幕大小。由于运动的相对性，我们观察的视角就是摄像机视角，和摄像机同步，背景图片就相对向相反方向移动。
 
-![原理一](camerashots/crude.png)
+![原理一](crude.png)
 
 如图，由于横向不断移动，所以要做两个背景图，不断交替设置位置。
-![原理一](camerashots/crude2.png)
+![原理一](crude2.png)
 
 同样的原理，再设置一个近景，两组Camera移动的速度设置的不一致，就实现了无限滚动视差背景。
 
 **Demo源码地址：**
 
 # 更多Creator教程
-2.0开始，新增了很多新特性，引擎发生了很大变化，后续将会分享更多干活。另外，每晚21:00，我将会在腾讯课堂直播讲解Creator游戏开发技术与实战经验，欢迎感兴趣的开发者关注。
+2.0开始，新增了很多新特性，引擎发生了很大变化，后续将会分享更多干货。另外，每晚21:00，我将会在腾讯课堂直播讲解Creator游戏开发技术与实战经验，欢迎感兴趣的开发者关注。
 
 **直播地址：** [https://ke.qq.com/course/378768?tuin=3ce6693]( https://ke.qq.com/course/378768?tuin=3ce6693 )
