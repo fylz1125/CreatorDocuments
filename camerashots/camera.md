@@ -59,6 +59,14 @@ Creator编辑器在菜单`项目`->`项目设置`->`分组管理`中更改或添
 
 同样的原理，再设置一个近景，两组Camera移动的速度设置的不一致，就实现了无限滚动视差背景。
 
+### 静景
+有一些元素是不动的，比如太阳，月亮，挂在天上，如何实现？
+
+新增分组celestial，将MainCamera开启，然后设置cullingMask为celestial，添加一个sun节点，分组设为celestial。
+
+最终效果：
+![原理一](camera-demo.gif)
+
 **Demo源码地址：** [https://github.com/fylz1125/CreatorDocuments](https://github.com/fylz1125/CreatorDocuments)
 
 # 更多Creator教程
