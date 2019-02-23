@@ -1,6 +1,11 @@
 # Camera 摄像机详解 
 *作者：大掌教*
 
+*Q群：704391772*
+
+**直播课地址：** [https://ke.qq.com/course/378768?tuin=3ce6693]( https://ke.qq.com/course/378768?tuin=3ce6693 )
+
+---
 
 Creator从2.0开始发生了巨大变化，其中最大的变化莫过于Camera组件。为什么说最大的改变是Camera组件，因为这是一个全新的组件，将游戏世界的渲染窗口暴露出来，这将是引擎从2d渲染向3d渲染的关键。
 
@@ -55,7 +60,7 @@ Creator编辑器在菜单`项目`->`项目设置`->`分组管理`中更改或添
 
 同样的原理，再设置一个近景，两组Camera移动的速度设置的不一致，就实现了无限滚动视差背景。
 
-**Demo源码地址：**
+**Demo源码地址：** [https://github.com/fylz1125/CreatorDocuments](https://github.com/fylz1125/CreatorDocuments)
 
 # 更多Creator教程
 2.0开始，新增了很多新特性，引擎发生了很大变化，后续将会分享更多干活。另外，每晚21:00，我将会在腾讯课堂直播讲解Creator游戏开发技术与实战经验，欢迎感兴趣的开发者关注。
