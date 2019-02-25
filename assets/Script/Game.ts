@@ -1,4 +1,3 @@
-import Babarian from './Babarian';
 
 const { ccclass, property } = cc._decorator;
 
