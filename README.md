@@ -1,4 +1,4 @@
-# Camera 摄像机详解 
+# Camera 摄像机初探
 *作者：大掌教*
 
 *Q群：704391772*
@@ -66,7 +66,7 @@ Creator编辑器在菜单`项目`->`项目设置`->`分组管理`中更改或添
 新增分组celestial，将MainCamera开启，然后设置cullingMask为celestial，添加一个sun节点，分组设为celestial。
 
 最终效果：
-![原理一](camerashots/camera-demo.gif)
+![原理一](camerashots/demo.gif)
 
 **Demo源码地址：** [https://github.com/fylz1125/CreatorDocuments](https://github.com/fylz1125/CreatorDocuments)
 
